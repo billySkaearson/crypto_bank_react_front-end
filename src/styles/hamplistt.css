@@ -1,0 +1,97 @@
+.hamplist{
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+	text-align: center;
+	font-size: 4vh;
+	font-weight: 1;
+	font-family: sans-serif;
+	display: flex;
+	padding-top: 10vh;
+     z-index: 5;
+    overflow: scroll;
+    position: fixed;
+    top: 0;
+
+}
+.displayNone{
+	display: none;
+}
+
+.hamplist p{
+position: absolute;
+top: 4vh;
+right: 10vh;
+}
+.hamplist div{
+	overflow: scroll;
+	width: 50%;
+	margin: auto;
+	/*height: 90vh;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.hamplist div span:last-child{
+	position: relative;
+	margin-top: 13vh;
+	border: solid black 2px;
+	border-radius: 15px;
+	padding:10px;
+
+	animation: bottombtn 1s ease-in;
+
+}
+
+.hamplist div span:active{
+	color: lightgray;
+	border:solid lightgray 1px;
+}
+
+.hamplist div .ii p{
+	position: static;
+	font-size: 2vh;
+}
+.ii{
+	overflow: hidden;
+	height: 0vh;
+
+}
+.itemshop span{
+	font-size:3vh;
+
+}
+
+.dis{
+	display: none;
+}
+
+.hamplist a {
+	text-decoration: none;
+	color:black;
+}
+
+@keyframes bottombtn{
+	from{top:100px;}
+	to{top:0px;}
+}
+
+.animate{
+	animation: hamplist 1s ease-out;
+	opacity: 0px;
+	animation-fill-mode: forwards;
+}
+@keyframes hamplist{
+	from{opacity:0;}
+	to{opacity: 1;}
+}
+
+.animated{
+	animation: ii 1s ease-out;
+
+	animation-fill-mode: forwards;
+}
+@keyframes ii{
+	from{height:0vh;}
+	to{height:20vh;}
+}

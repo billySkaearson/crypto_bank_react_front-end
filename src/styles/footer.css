@@ -1,0 +1,32 @@
+footer{
+	font-size: 1.8vh;
+	background-color: rgba(9,9,9);
+  border-top: 1px darkblue solid;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+    color:white;
+	height: 20vh;
+}
+
+footer p{
+
+
+	margin: 10px;
+}
+
+footer p:first-child{
+	font-size: 3vh;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+	font-size: 3vh;
+	margin: auto;
+}
+footer span {
+	display: flex;
+	width: 30%;
+}
+

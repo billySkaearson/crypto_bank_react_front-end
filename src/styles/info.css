@@ -1,0 +1,36 @@
+.info{
+height: 100vh;
+width: 100%;
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+
+}
+.svg{
+  height: 30vh;
+}
+.info p{
+  color:white;
+  font-size: 2vh;
+}
+.info h1{
+  color:white;
+  font-size: 7vh;
+  margin: 10px;
+}
+.info span{
+  color: rgba(22, 19,129);
+}
+.imgIphone{
+  height: 40vh;
+}
+.info button{
+  border-radius: 5px;
+  background-color: inherit;
+  color:white;
+  border:white solid 1px;
+  font-size: 2vh;
+  margin: 20px;
+}

@@ -1,0 +1,67 @@
+.static{
+height: 100vh;
+background-image: linear-gradient(180deg,blue,black);
+overflow: hidden;}
+.static figure{
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.static div{
+  color:white;
+  border-bottom:gray solid;
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+.static div span{
+  font-size: 2vh;
+}
+.static div span:nth-child(3){
+  color:red;
+}
+.static div span:nth-child(2){
+  color:gray;
+}
+.static div:nth-child(2) span:nth-child(3){
+  color:green;
+}
+.static div button{
+  font-size: 2vh;
+  border-radius: 5px;
+  background-color: white;
+  border:0px;
+  padding: 20px;
+  background-color: transparent;
+  border: solid white;
+  color:white;
+}
+.static div img{
+height: 7vh;
+}
+@media (max-width:1000px) {
+  .static div img{
+  height: 5vh;
+  }
+  .static div button{
+    font-size: 2vh;
+    border-radius: 5px;
+    
+    border:0px;
+    padding: 10px;
+  }
+  .static div span:first-child{
+    display: none;
+  }
+  .static div{
+    width: 100%;
+  }
+}

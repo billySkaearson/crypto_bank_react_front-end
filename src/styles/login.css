@@ -1,0 +1,76 @@
+.auth{
+  overflow: hidden;
+  height: 100vh;
+}
+.auth video{
+width: 100%;
+height: 100vh;
+object-fit: cover;
+}
+.page{
+  width: 2% ;
+  visibility: hidden;
+  height: 70vh;
+  background-color: black;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  opacity: 0.6;
+  border-radius: 5px;
+  animation: page 1s ease-in ;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  overflow: hidden;
+}
+.cont{
+  width: 100% ;
+  height: 100%;
+  opacity: 0;
+
+   animation: pageDiv 1s ease-in ;
+     animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+.page h1{
+  color:white;
+  margin: 20px;
+}
+.page div div{
+background-color: white;
+width: 40%;
+height: 35%;
+margin: 5%;
+float: left;
+border-radius: 5px;
+overflow: scroll;
+
+}
+.page div div:last-child{
+background-color: white;
+width: 90%;
+height: 30%;
+margin: 5%;
+margin-top: 0px;
+}
+.page p{
+margin: 25px;
+
+}
+.green{
+  color:green;
+}
+.red{
+  color:red;
+}
+.footer{
+  display: none;
+}
+@keyframes page {
+  from{width: 2%; visibility:visible;;}
+  to{width: 70%; visibility: visible;;}
+}
+@keyframes pageDiv {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}

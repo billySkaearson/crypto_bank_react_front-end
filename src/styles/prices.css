@@ -1,0 +1,68 @@
+/*.prices{
+  height: 150vh;
+background-image: linear-gradient(270deg,blue,black);
+overflow: hidden;
+}*/
+/*.prices figure{
+
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.prices div{
+  color:white;
+  border-bottom:gray solid;
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+.prices div span{
+  font-size: 2vh;
+}
+.prices div span:nth-child(3){
+  color:red;
+}
+.prices div span:nth-child(2){
+  color:gray;
+}
+.prices div:nth-child(2) span:nth-child(3){
+  color:green;
+}
+.prices div button{
+  font-size: 2vh;
+  border-radius: 5px;
+  background-color: white;
+  border:0px;
+  padding: 20px;
+  color: white;
+  border: solid white;
+  background-color: transparent;
+}
+.prices div img{
+height: 7vh;
+}
+@media (max-width:1000px) {
+  .prices div img{
+  height: 5vh;
+  }
+  .prices div button{
+    font-size: 2vh;
+    border-radius: 5px;
+
+    border:0px;
+    padding: 10px;
+  }
+  .prices div span:first-child{
+    display: none;
+  }
+  .prices div{
+    width: 100%;
+  }
+}*/

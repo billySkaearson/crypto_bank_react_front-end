@@ -1,0 +1,111 @@
+.login{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index:10;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 3px;
+animation: apper 2s ease-in-out;
+}
+.main{
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  z-index:10;
+  top:40px;
+  position: absolute;
+  left:35%;
+border-radius: 3px;
+overflow: hidden;
+animation: apper 2s ease-in-out;
+}
+.login2{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index:10;
+  top:0px;
+  position: absolute;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+border-radius: 3px;
+animation: apper 2s ease-in-out;
+}
+
+.input {
+  width: 90%;
+  height: 7%;
+  border-radius: 10px;
+  border:gray solid 1px;
+  margin: 20px;
+  font-size: 2vh;
+}
+.border {
+  width: 90%;
+  height: 7%;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 2vh;
+  border:blue 3px solid;
+}
+.input:focus {
+outline: none;
+border:blue 3px solid;
+}
+.login img{
+  height: 25%;
+}
+.login2 img{
+  height: 40%;
+}
+.login div:first-of-type{
+display: flex;
+justify-content: space-around;
+font-size: 2.9vh;
+}
+.login div input {
+  width: 85%;
+  height: 90%;
+  border-radius: 10px;
+  border:0px;
+  font-size: 2vh;
+}
+.login div input:focus {
+outline: none;
+}
+.login button {
+  width: 40%;
+  height: 4vh;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: blue;
+  color:white;
+  border:blue solid 0px;
+  font-size: 2vh;
+}
+.login span:active{
+  color:blue;
+}
+.login button:last-child {
+  background-color: purple;
+}
+.login p {
+  color:red;
+  margin: 0px;
+  margin-left: 20px;
+  margin-top:-20px;
+}
+@keyframes apper {
+  from{top:-500px}
+    to{top:0px}
+}
+@media (max-width:1000px) {
+  .main{
+    width: 90%;
+    left:5%;
+  }
+}
